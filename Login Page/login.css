@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #c3c5dd
+}
+.container{
+    padding: 20px;
+
+}
+.login-form {
+    max-width: 500px;
+    height: 250px;
+    margin: 0 auto;
+    margin-top: 200px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(61, 36, 36, 0.9);
+}
+h1{
+    margin-bottom: 10px;
+}
+input {
+    width: 97%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+button {
+    background-color: #150dff;
+    color: #fff;
+    padding: 10px 20px;
+    margin-top: 25px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+label {
+    font-size: 20px;
+    padding-bottom: 10px;
+    font-weight: 500;
+    color: #555;
+}
+
+
+button:hover{
+    background-color: #ccc;
+    color: black;
+}
